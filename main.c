@@ -3,7 +3,14 @@
 
 int main(int argc, char *argv[])
 {
-  printf("Hello, Sookmyung Electronics!\n");
-  system("PAUSE");	
-  return 0;
+    int a, b;
+    
+    printf("Hello, Electronics!\n");
+    a = 10;
+    b = 20;
+    
+    printf("%d + %d = %d\n", a, b, a+b);
+    
+    system("PAUSE");
+    return 0;
 }
